@@ -1,0 +1,12 @@
+{
+  "dependencies": {},
+  "deprecated": false,
+  "description": "TypeScript definitions for sunshine-conversations-client",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/sunshine-conversations-client",
+  "scripts": {},
+  "typeScriptVersion": "3.0",
+  "types": "index.d.ts",
+  "version": "9.0.1"
+}
