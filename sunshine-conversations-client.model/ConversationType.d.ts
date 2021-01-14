@@ -3,7 +3,7 @@
 * @enum {}
 * @readonly
 */
-export default class ConversationType {
+declare class ConversationType {
     /**
     * Returns a <code>ConversationType</code> enum value from a Javascript object name.
     * @param {Object} data The plain JavaScript object containing the name of the enum value.
@@ -24,4 +24,4 @@ export default class ConversationType {
 /**
  * *
  */
-export type ConversationType = any;
+export default ConversationType;

@@ -3,7 +3,7 @@
 * @enum {}
 * @readonly
 */
-export default class Status {
+declare class Status {
     /**
     * Returns a <code>Status</code> enum value from a Javascript object name.
     * @param {Object} data The plain JavaScript object containing the name of the enum value.
@@ -29,4 +29,4 @@ export default class Status {
 /**
  * *
  */
-export type Status = any;
+export default Status;

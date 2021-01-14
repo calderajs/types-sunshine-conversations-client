@@ -3,7 +3,7 @@
 * @enum {}
 * @readonly
 */
-export default class ClientType {
+declare class ClientType {
     /**
     * Returns a <code>ClientType</code> enum value from a Javascript object name.
     * @param {Object} data The plain JavaScript object containing the name of the enum value.
@@ -69,4 +69,5 @@ export default class ClientType {
 /**
  * *
  */
-export type ClientType = any;
+export default ClientType
+// export type ClientType = any;
